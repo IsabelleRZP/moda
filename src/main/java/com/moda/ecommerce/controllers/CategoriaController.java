@@ -46,6 +46,6 @@ public class CategoriaController {
 		
 		categoriaRepository.save(objCategoria);
 		
-		return "redirect:/categoria";
+		return "redirect:/";
 	}
 }
